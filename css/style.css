@@ -44,7 +44,7 @@ body{
 .product_name{
 	background: #445162;
 }
-.name_section{
+.name_section, .about_product_section{
 	display: flex;
 	justify-content: space-between;
 	max-width: 1180px;
@@ -73,4 +73,19 @@ body{
 	margin:0 0 22px 0 ;
 	padding: 0 0 0 36px;
   }
+  .caption{
+	font-size: 30px;
+	color: rgb(68, 81, 97);
+	line-height: 1.2;
+	text-align: left;
+	margin-bottom: 31px;
+  }
+  .about_subtitle_text{
+	 margin:0 85px 20px 0; 
+  }
+  .about_subtitle_text p:last-child{
+	margin-bottom: 0 ; 
+ }
+  
+  
    
