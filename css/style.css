@@ -86,7 +86,7 @@ body{
   .about_subtitle_text p:last-child{
 	margin-bottom: 0 ; 
  }
- .dignity{
+ .dignity, .reviews{
 	background: #f5f5f5;
   }
   .dignity_content{
@@ -148,4 +148,3 @@ body{
 	color: rgb(152, 152, 152);
 	text-align: left;
   }
-  
