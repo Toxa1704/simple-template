@@ -95,7 +95,7 @@ body{
 	margin: 0px auto;
 	padding: 50px 0; 
   }
-  .dignity_title,.scrishots_title{
+  .dignity_title,.scrishots_title, .reviews_title{
 	  text-align: center;
   }
   .dignity_list{
@@ -106,7 +106,7 @@ body{
 	padding: 0 0 0 43px;
 	margin-bottom: 34px;
 }
-.scrinshots_content{
+.scrinshots_content, .reviews_content{
 	max-width: 1180px;
 	margin: 0px auto;
 	padding: 50px 0; 
@@ -115,7 +115,7 @@ body{
     display: flex;
     justify-content: space-between;
     flex: 0 1 50%;
-    padding: 20px 0;
+	padding: 20px 0;
 }
 .subtitle{
 	font-size: 24px;
@@ -125,10 +125,27 @@ body{
 .section_text{
 	margin:0 19px ;
 }
- .block_section{
+ .section{
 	display: flex;
     flex-wrap: wrap;
     max-width: 1180px;
     margin: 0 auto;
  }
+.text{
+	background: url('../img/bgreview.png') 0 0 no-repeat;
+	padding: 15px 15px 15px 30px;
+}
+.userpic{
+	align-self: flex-start;
+}
+.paragraph{
+	font-size: 14px;
+	font-style: italic;
+	margin-bottom:16px ;
+}
+.signature {
+	font-size: 14px;
+	color: rgb(152, 152, 152);
+	text-align: left;
+  }
   
