@@ -95,7 +95,7 @@ body{
 	margin: 0px auto;
 	padding: 50px 0; 
   }
-  .dignity_title,.scrishots_title, .reviews_title{
+  .dignity_title,.scrishots_title, .reviews_title, .buy_inner_title{
 	  text-align: center;
   }
   .dignity_list{
@@ -148,3 +148,59 @@ body{
 	color: rgb(152, 152, 152);
 	text-align: left;
   }
+.buy_it_now{
+	max-width: 990px;
+	margin: 0 auto;
+}
+.buy_subtitle {
+	font-size: 24px;
+	color: rgb(255, 255, 255);
+	line-height: 1.25;
+	text-align: center;
+	padding: 20px 20px 20px 10px;
+  }
+  .price{
+	background: rgb(255, 255, 255) ;
+	font-size: 40px;
+	color: rgb(68, 81, 98);
+	line-height: 0.75;
+	text-align: center;
+	margin:0 0 0  -20px;
+	padding: 20px;
+  }
+  .column_list {
+	font-size: 14px;
+	color: rgb(255, 255, 255);
+	text-align: left;
+	padding: 20px 20px 10px 20px;
+  }
+  .column_list li{
+	padding:0 0 10px 0;
+  }
+  .bt {
+	font-size: 18px;
+	color: rgb(68, 81, 97);
+	font-weight: bold;
+	border-radius: 5px;
+	background-color: rgb(255, 255, 255);
+	width: 260px;
+	height: 40px;
+	margin:20px 20px 10px  0px;
+  }
+.column{
+    background-color: #445162;
+    border:2px #445162 solid;
+    border-radius: 5px;
+    padding: 0 0 20px 20px;
+    margin: 0 10px;
+    display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	flex: 0 1 33.333%;
+}
+.buy_columns{
+	display: flex;
+}
+.buy_subtitle{
+	flex-grow: 0;
+}
